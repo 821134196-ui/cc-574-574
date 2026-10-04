@@ -7,6 +7,11 @@ __pycache__/
 target/
 dist/
 build/
+# 运行时数据：SQLite 数据库、WAL、本地扫描件
+/data/*.db
+/data/*.db-*
+/data/scans/*
+!/data/scans/.gitkeep
 *.log
 .claude/
 .cc-workbench/
